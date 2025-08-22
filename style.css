@@ -17,6 +17,16 @@ header, section, footer {
   margin-bottom: 20px;
 }
 
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 2px solid #0074b8;
+}
+
+
 h1 {
   color: #005a8d;
   margin-bottom: 0;
@@ -36,6 +46,20 @@ ul {
 a {
     color: #ccc;
     text-decoration: none;
+}
+
+.botao-download {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #0074b8;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+.botao-download:hover {
+  background-color: #0288d1;
 }
 
 footer {
